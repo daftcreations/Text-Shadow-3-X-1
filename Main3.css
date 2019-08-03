@@ -1,0 +1,28 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+}
+.text1,
+.text2,
+.text3{
+    font-family: fantasy;
+    font-size: 6rem;
+    color:white;
+    text-shadow: -10px 10px 10px rgba(0,0,0,.5);
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%) skewY(-20deg) skewX(40deg);
+    z-index: 9999;
+}
+.text2{
+    top:49%;
+    left:51%;
+    z-index: 999;
+}
+.text3{
+    top:57%;
+    left:53%;
+    z-index: 99;
+}

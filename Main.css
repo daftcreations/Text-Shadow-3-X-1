@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: linear-gradient(135deg,#B3E4E1,#90CBCF);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-family: Ink;
+    font-size: 9rem;
+    color:white;
+    letter-spacing:-40px;
+}
+.circle{
+    height: 110px;
+    width:110px;
+    background-color:white;
+    display:inline-block;
+    margin-left:35px;
+    border-radius: 50%;
+    box-shadow: -30px 50px 50px rgba(104,172,175,.1),
+                -20px 45px 40px rgba(104,172,175,.4),
+                -10px 30px 10px rgba(104,172,175,.1);
+}
+.subtitle{
+    font-family: sans-serif;
+    font-size: 10px;
+    letter-spacing: 50px;
+    color:white;
+    position: absolute;
+    top:62%;
+    left:53%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}

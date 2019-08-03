@@ -1,0 +1,135 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:tomato;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.text span{
+    margin-left:-25px;
+    padding:0;
+}
+.text{
+    font-family: arial black;
+    font-size: 100px;
+    color:transparent;
+    transform: skewY(-10deg) skewX(35deg);
+    text-shadow: -15px 15px 0 rgba(255,215,0,1),
+                -16px 16px 0 rgba(64,64,64,1);
+    position: relative;
+    z-index: 1;
+}
+.t,.u,.e,.s,.d,.a,.y{
+    text-shadow: -16px 16px 0 rgba(255,215,0,1),
+                -17px 17px 0 rgba(64,64,64,1),
+                -18px 18px 0 rgba(64,64,64,1),
+                -19px 19px 0 rgba(64,64,64,1),
+                -20px 20px 0 rgba(64,64,64,1),
+                -21px 21px 0 rgba(64,64,64,1),
+                -22px 22px 0 rgba(64,64,64,1),
+                -23px 23px 0 rgba(64,64,64,1),
+                -24px 24px 0 rgba(64,64,64,1),
+                -25px 25px 0 rgba(64,64,64,1),
+                -26px 26px 0 rgba(64,64,64,1),
+                -27px 27px 0 rgba(64,64,64,1),
+                -28px 28px 0 rgba(64,64,64,1),
+                -29px 29px 0 rgba(64,64,64,1),
+                -30px 30px 0 rgba(64,64,64,1);
+    position: relative;
+    z-index: 10;
+    -webkit-animation:anim 1.5s infinite ease;
+}
+.u{
+    z-index: 9;
+    animation-delay: 0.2s;
+}
+.e{
+    z-index: 8;
+    animation-delay: 0.4s;
+}
+.s{
+    z-index: 7;
+    animation-delay: 0.6s;
+}
+.d{
+    z-index: 6;
+    animation-delay: 0.8s;
+}
+.a{
+    z-index: 5;
+    animation-delay: 1s;
+}
+.y{
+    z-index: 4;
+    animation-delay: 1.2s;
+}
+@keyframes anim{
+    0%{
+        text-shadow: -16px 16px 0 rgba(255,215,0,1),
+                -17px 17px 0 rgba(64,64,64,1),
+                -18px 18px 0 rgba(64,64,64,1),
+                -19px 19px 0 rgba(64,64,64,1),
+                -20px 20px 0 rgba(64,64,64,1),
+                -21px 21px 0 rgba(64,64,64,1),
+                -22px 22px 0 rgba(64,64,64,1),
+                -23px 23px 0 rgba(64,64,64,1),
+                -24px 24px 0 rgba(64,64,64,1),
+                -25px 25px 0 rgba(64,64,64,1),
+                -26px 26px 0 rgba(64,64,64,1),
+                -27px 27px 0 rgba(64,64,64,1),
+                -28px 28px 0 rgba(64,64,64,1),
+                -29px 29px 0 rgba(64,64,64,1),
+                -30px 30px 0 rgba(64,64,64,1);
+    }
+    50%{
+        text-shadow: 
+                -1px 1px 0 rgba(255,215,0,1),
+                -2px 2px 0 rgba(64,64,64,1),
+                -3px 3px 0 rgba(64,64,64,1),
+                -4px 4px 0 rgba(64,64,64,1),
+                -5px 5px 0 rgba(64,64,64,1),
+                -6px 6px 0 rgba(64,64,64,1),
+                -7px 7px 0 rgba(64,64,64,1),
+                -8px 8px 0 rgba(64,64,64,1),
+                -9px 9px 0 rgba(64,64,64,1),
+                -10px 10px 0 rgba(64,64,64,1),
+                -11px 11px 0 rgba(64,64,64,1),
+                -12px 12px 0 rgba(64,64,64,1),
+                -13px 13px 0 rgba(64,64,64,1),
+                -14px 14px 0 rgba(64,64,64,1),
+                -15px 15px 0 rgba(64,64,64,1),
+                -16px 16px 0 rgba(64,64,64,1),
+                -17px 17px 0 rgba(64,64,64,1),
+                -18px 18px 0 rgba(64,64,64,1),
+                -19px 19px 0 rgba(64,64,64,1),
+                -20px 20px 0 rgba(64,64,64,1),
+                -21px 21px 0 rgba(64,64,64,1),
+                -22px 22px 0 rgba(64,64,64,1),
+                -23px 23px 0 rgba(64,64,64,1),
+                -24px 24px 0 rgba(64,64,64,1),
+                -25px 25px 0 rgba(64,64,64,1),
+                -26px 26px 0 rgba(64,64,64,1),
+                -27px 27px 0 rgba(64,64,64,1),
+                -28px 28px 0 rgba(64,64,64,1),
+                -29px 29px 0 rgba(64,64,64,1),
+                -30px 30px 0 rgba(64,64,64,1);
+    }
+    100%{
+        text-shadow: -16px 16px 0 rgba(255,215,0,1),
+                -17px 17px 0 rgba(64,64,64,1),
+                -18px 18px 0 rgba(64,64,64,1),
+                -19px 19px 0 rgba(64,64,64,1),
+                -20px 20px 0 rgba(64,64,64,1),
+                -21px 21px 0 rgba(64,64,64,1),
+                -22px 22px 0 rgba(64,64,64,1),
+                -23px 23px 0 rgba(64,64,64,1),
+                -24px 24px 0 rgba(64,64,64,1),
+                -25px 25px 0 rgba(64,64,64,1),
+                -26px 26px 0 rgba(64,64,64,1),
+                -27px 27px 0 rgba(64,64,64,1),
+                -28px 28px 0 rgba(64,64,64,1),
+                -29px 29px 0 rgba(64,64,64,1),
+                -30px 30px 0 rgba(64,64,64,1);
+    }
+}
